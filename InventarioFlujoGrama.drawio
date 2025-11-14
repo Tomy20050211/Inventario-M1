@@ -1,0 +1,190 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.0.2">
+  <diagram name="Página-1" id="dNqnqrbWIVVlH2NjRGAm">
+    <mxGraphModel dx="1360" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-2" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-3" value="Mostrar &quot;Welcome to the inventory&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-4" value="Solicitar nombre del producto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="260" as="sourcePoint" />
+            <mxPoint x="220" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-3" target="Cyf7QomSGKkR0fW75BlR-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="200" as="sourcePoint" />
+            <mxPoint x="420" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-16" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cyf7QomSGKkR0fW75BlR-15">
+          <mxGeometry x="-0.0333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-9" value="El nombre tiene solo letras?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.442;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-3" target="Cyf7QomSGKkR0fW75BlR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-17" value="Mostrar error: &quot;Name must contain only letters&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-17" target="Cyf7QomSGKkR0fW75BlR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="350" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-23" value="&lt;div&gt;Si&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cyf7QomSGKkR0fW75BlR-20">
+          <mxGeometry x="0.1779" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-24" value="Mostrar precio del producto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-29" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cyf7QomSGKkR0fW75BlR-27">
+          <mxGeometry x="0.08" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-36" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cyf7QomSGKkR0fW75BlR-34">
+          <mxGeometry x="0.5111" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-26" value="Precio es un numero?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-30" value="Mostrar error &quot;Price must be a number&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Cyf7QomSGKkR0fW75BlR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="720" as="sourcePoint" />
+            <mxPoint x="450" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-35" value="Convertir precio en float" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-38" target="Cyf7QomSGKkR0fW75BlR-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-38" value="Solicitar cantidad" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-42" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cyf7QomSGKkR0fW75BlR-41">
+          <mxGeometry x="-0.1429" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-47" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cyf7QomSGKkR0fW75BlR-46">
+          <mxGeometry x="0.0444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-39" value="Cantidad es numero entero?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="910" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Cyf7QomSGKkR0fW75BlR-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="230" as="targetPoint" />
+            <mxPoint x="560" y="1110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="690" y="1110" />
+              <mxPoint x="690" y="230" />
+              <mxPoint x="471" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-43" value="Mostrar error: quantity must be a number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-48" value="Convertir cantidad a int" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-50" value="&lt;div&gt;Calcular precio total:&lt;/div&gt;&lt;div&gt;totalPrice = price x quantity&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cyf7QomSGKkR0fW75BlR-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-52" value="&lt;div&gt;Mostrar resumen del inventario:&lt;/div&gt;&lt;div&gt;-Nombre&lt;/div&gt;&lt;div&gt;-Precio&lt;/div&gt;&lt;div&gt;-Cantidad&lt;/div&gt;&lt;div&gt;-Precio total&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1330" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Cyf7QomSGKkR0fW75BlR-54" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1510" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
