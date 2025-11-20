@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.0">
+  <diagram name="Flujo General" id="9qWggV3OYNIrYYQmlIsE">
+    <mxGraphModel dx="34451" dy="24292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-34" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GiLi4ktT2tBfdiWBXHzZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#C7E7FF;" value="INICIO" vertex="1">
+          <mxGeometry height="80" width="140" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-35" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GiLi4ktT2tBfdiWBXHzZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="Mostrar menú" vertex="1">
+          <mxGeometry height="70" width="180" x="320" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-36" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GiLi4ktT2tBfdiWBXHzZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="Leer opción (1-9)" vertex="1">
+          <mxGeometry height="70" width="180" x="320" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-38" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFD5E5;" value="¿Opción seleccionada?" vertex="1">
+          <mxGeometry height="120" width="220" x="300" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" value="1. agregar_producto()" vertex="1">
+          <mxGeometry height="60" width="180" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" value="2. mostrar_inventario()" vertex="1">
+          <mxGeometry height="60" width="180" x="300" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" value="3. buscar_producto()" vertex="1">
+          <mxGeometry height="60" width="180" x="520" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" value="4. actualizar_producto()" vertex="1">
+          <mxGeometry height="60" width="180" x="80" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" value="5. eliminar_producto()" vertex="1">
+          <mxGeometry height="60" width="180" x="300" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" value="6. calcular_estadisticas()" vertex="1">
+          <mxGeometry height="60" width="180" x="520" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" value="7. guardar_csv()" vertex="1">
+          <mxGeometry height="60" width="180" x="180" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" value="8. cargar_csv()" vertex="1">
+          <mxGeometry height="60" width="180" x="420" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#C7E7FF;" value="FIN" vertex="1">
+          <mxGeometry height="80" width="140" x="340" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-14" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-1" target="GiLi4ktT2tBfdiWBXHzZ-2" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-15" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-2" target="GiLi4ktT2tBfdiWBXHzZ-3" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-16" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-3" target="GiLi4ktT2tBfdiWBXHzZ-4" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-17" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-4" target="GiLi4ktT2tBfdiWBXHzZ-5" value="1" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-18" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-4" target="GiLi4ktT2tBfdiWBXHzZ-6" value="2" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-19" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-4" target="GiLi4ktT2tBfdiWBXHzZ-7" value="3" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-20" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-4" target="GiLi4ktT2tBfdiWBXHzZ-8" value="4" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-21" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-4" target="GiLi4ktT2tBfdiWBXHzZ-9" value="5" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-22" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-4" target="GiLi4ktT2tBfdiWBXHzZ-10" value="6" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-23" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-4" target="GiLi4ktT2tBfdiWBXHzZ-11" value="7" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-24" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-4" target="GiLi4ktT2tBfdiWBXHzZ-12" value="8" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-25" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-4" target="GiLi4ktT2tBfdiWBXHzZ-13" value="9" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-26" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-5" target="GiLi4ktT2tBfdiWBXHzZ-2" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-27" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-6" target="GiLi4ktT2tBfdiWBXHzZ-2" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-28" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-7" target="GiLi4ktT2tBfdiWBXHzZ-2" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-29" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-8" target="GiLi4ktT2tBfdiWBXHzZ-2" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-30" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-9" target="GiLi4ktT2tBfdiWBXHzZ-2" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-31" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-10" target="GiLi4ktT2tBfdiWBXHzZ-2" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-32" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-11" target="GiLi4ktT2tBfdiWBXHzZ-2" />
+        <mxCell id="GiLi4ktT2tBfdiWBXHzZ-33" edge="1" parent="1" source="GiLi4ktT2tBfdiWBXHzZ-12" target="GiLi4ktT2tBfdiWBXHzZ-2" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
